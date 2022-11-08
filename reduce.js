@@ -6,6 +6,17 @@
 
 
 // Summing an array of numbers:
+const nums = [0, 1, 2, 3, 4];
+let sum = nums.reduce((acc, curr) => acc + curr, 0);
+/* => {
+  console.log(
+    "Accumulator:", acc,
+    "Current Value:", curr,
+    "Total:", acc + curr
+  );
+    return acc + curr;
+}, 0); // adding , 0 use cur initial value and executes for all array elements  */
+console.log(sum);
 
 
 const teamMembers = [
